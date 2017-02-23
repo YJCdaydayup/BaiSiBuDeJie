@@ -1,0 +1,30 @@
+
+
+//
+//  BSPch.pch
+//  JFNetWorking
+//
+//  Created by 杨力 on 22/2/2017.
+//  Copyright © 2017 杨力. All rights reserved.
+//
+
+#ifndef BSPch_pch
+#define BSPch_pch
+
+#import "UIView+BSExtension.h"
+
+#ifdef BEBUG
+#define BSLog(...) NSLog(__VA_ARGS__)
+#else
+#define BSLog(...)
+#endif
+
+#define BSLogFunc BSLog(@"%s",__Func__)
+
+#define BSRGBColor(r,g,b)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+#define BSGlobalBg BSRGBColor(223,223,223)
+
+
+
+#endif /* BSPch_pch */
