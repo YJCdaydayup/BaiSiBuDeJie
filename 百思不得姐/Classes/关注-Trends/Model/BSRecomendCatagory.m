@@ -10,15 +10,4 @@
 
 @implementation BSRecomendCatagory
 
--(instancetype)initWithDictionary:(NSDictionary *)dictionary error:(NSError *)error{
-    
-    if(self = [super init]){
-        
-        self.id = dictionary[@"id"];
-        self.name = dictionary[@"name"];
-        self.count = dictionary[@"count"];
-    }
-    return self;
-}
-
 @end

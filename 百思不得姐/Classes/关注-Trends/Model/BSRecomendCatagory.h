@@ -19,6 +19,5 @@
 /** 名称 */
 @property (nonatomic,copy) NSString * name;
 
--(instancetype)initWithDictionary:(NSDictionary *)dictionary error:(NSError *)error;
 
 @end

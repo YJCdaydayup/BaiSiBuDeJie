@@ -26,10 +26,10 @@
 		8F792DE71E5F53E300A341B8 /* BSNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F792DE61E5F53E300A341B8 /* BSNaviController.m */; };
 		8F792DE91E5F66C800A341B8 /* BSTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F792DE81E5F66C800A341B8 /* BSTrendsController.xib */; };
 		8F792DED1E5F76D800A341B8 /* BSRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F792DEB1E5F76D800A341B8 /* BSRecommendController.m */; };
-		8F792DEE1E5F76D800A341B8 /* BSRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F792DEC1E5F76D800A341B8 /* BSRecommendController.xib */; };
 		8F792DF21E5F7DDE00A341B8 /* BSRecomendCatagory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F792DF11E5F7DDE00A341B8 /* BSRecomendCatagory.m */; };
-		8F792DF61E5F807700A341B8 /* BSCatagoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F792DF51E5F807700A341B8 /* BSCatagoryViewCell.m */; };
-		8F792DF81E5F82AE00A341B8 /* BSCatagoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F792DF71E5F82AE00A341B8 /* BSCatagoryViewCell.xib */; };
+		8F792DFD1E5F8E6100A341B8 /* BSCatagoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F792DFB1E5F8E6100A341B8 /* BSCatagoryViewCell.m */; };
+		8F792DFE1E5F8E6100A341B8 /* BSCatagoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F792DFC1E5F8E6100A341B8 /* BSCatagoryViewCell.xib */; };
+		8F792E001E5F917C00A341B8 /* BSRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F792DFF1E5F917C00A341B8 /* BSRecommendController.xib */; };
 		E1B201DB4DE6661DEE399351 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5B9CE8BFE6E7BFFA8101C2 /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +72,8 @@
 		8F792DC61E5F43B700A341B8 /* BSMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSMeController.m; path = ../../BSMeController.m; sourceTree = "<group>"; };
 		8F792DC71E5F43B700A341B8 /* BSNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSNewController.h; path = ../../BSNewController.h; sourceTree = "<group>"; };
 		8F792DC81E5F43B700A341B8 /* BSNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSNewController.m; path = ../../BSNewController.m; sourceTree = "<group>"; };
-		8F792DC91E5F43B700A341B8 /* BSTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabbarController.h; sourceTree = "<group>"; };
-		8F792DCA1E5F43B700A341B8 /* BSTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabbarController.m; sourceTree = "<group>"; };
+		8F792DC91E5F43B700A341B8 /* BSTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTabbarController.h; path = ../../BSTabbarController.h; sourceTree = "<group>"; };
+		8F792DCA1E5F43B700A341B8 /* BSTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTabbarController.m; path = ../../BSTabbarController.m; sourceTree = "<group>"; };
 		8F792DCB1E5F43B700A341B8 /* BSTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTrendsController.h; path = ../../BSTrendsController.h; sourceTree = "<group>"; };
 		8F792DCC1E5F43B700A341B8 /* BSTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTrendsController.m; path = ../../BSTrendsController.m; sourceTree = "<group>"; };
 		8F792DCD1E5F43B700A341B8 /* UIBarButtonItem+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+BSExtension.h"; path = "../../UIBarButtonItem+BSExtension.h"; sourceTree = "<group>"; };
@@ -81,21 +81,21 @@
 		8F792DCF1E5F43B700A341B8 /* UIView+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BSExtension.h"; path = "../../UIView+BSExtension.h"; sourceTree = "<group>"; };
 		8F792DD01E5F43B700A341B8 /* UIView+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BSExtension.m"; path = "../../UIView+BSExtension.m"; sourceTree = "<group>"; };
 		8F792DD81E5F43CE00A341B8 /* BSPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPch.pch; sourceTree = "<group>"; };
-		8F792DD91E5F43F500A341B8 /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBar.h; sourceTree = "<group>"; };
-		8F792DDA1E5F43F500A341B8 /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBar.m; sourceTree = "<group>"; };
-		8F792DE21E5F530C00A341B8 /* BSTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTestController.h; sourceTree = "<group>"; };
-		8F792DE31E5F530C00A341B8 /* BSTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTestController.m; sourceTree = "<group>"; };
-		8F792DE51E5F53E300A341B8 /* BSNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNaviController.h; sourceTree = "<group>"; };
-		8F792DE61E5F53E300A341B8 /* BSNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNaviController.m; sourceTree = "<group>"; };
+		8F792DD91E5F43F500A341B8 /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTabBar.h; path = ../../BSTabBar.h; sourceTree = "<group>"; };
+		8F792DDA1E5F43F500A341B8 /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTabBar.m; path = ../../BSTabBar.m; sourceTree = "<group>"; };
+		8F792DE21E5F530C00A341B8 /* BSTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTestController.h; path = ../../BSTestController.h; sourceTree = "<group>"; };
+		8F792DE31E5F530C00A341B8 /* BSTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTestController.m; path = ../../BSTestController.m; sourceTree = "<group>"; };
+		8F792DE51E5F53E300A341B8 /* BSNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSNaviController.h; path = ../../BSNaviController.h; sourceTree = "<group>"; };
+		8F792DE61E5F53E300A341B8 /* BSNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSNaviController.m; path = ../../BSNaviController.m; sourceTree = "<group>"; };
 		8F792DE81E5F66C800A341B8 /* BSTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSTrendsController.xib; sourceTree = "<group>"; };
 		8F792DEA1E5F76D800A341B8 /* BSRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRecommendController.h; sourceTree = "<group>"; };
 		8F792DEB1E5F76D800A341B8 /* BSRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRecommendController.m; sourceTree = "<group>"; };
-		8F792DEC1E5F76D800A341B8 /* BSRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSRecommendController.xib; sourceTree = "<group>"; };
 		8F792DF01E5F7DDE00A341B8 /* BSRecomendCatagory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRecomendCatagory.h; sourceTree = "<group>"; };
 		8F792DF11E5F7DDE00A341B8 /* BSRecomendCatagory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRecomendCatagory.m; sourceTree = "<group>"; };
-		8F792DF41E5F807700A341B8 /* BSCatagoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCatagoryViewCell.h; sourceTree = "<group>"; };
-		8F792DF51E5F807700A341B8 /* BSCatagoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCatagoryViewCell.m; sourceTree = "<group>"; };
-		8F792DF71E5F82AE00A341B8 /* BSCatagoryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCatagoryViewCell.xib; sourceTree = "<group>"; };
+		8F792DFA1E5F8E6100A341B8 /* BSCatagoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCatagoryViewCell.h; sourceTree = "<group>"; };
+		8F792DFB1E5F8E6100A341B8 /* BSCatagoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCatagoryViewCell.m; sourceTree = "<group>"; };
+		8F792DFC1E5F8E6100A341B8 /* BSCatagoryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCatagoryViewCell.xib; sourceTree = "<group>"; };
+		8F792DFF1E5F917C00A341B8 /* BSRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSRecommendController.xib; sourceTree = "<group>"; };
 		9175CB6B242F3F9C5E42F4BC /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		FA5B9CE8BFE6E7BFFA8101C2 /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,14 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				8F792DDC1E5F450D00A341B8 /* Classes */,
-				8F792DD91E5F43F500A341B8 /* BSTabBar.h */,
-				8F792DDA1E5F43F500A341B8 /* BSTabBar.m */,
-				8F792DC91E5F43B700A341B8 /* BSTabbarController.h */,
-				8F792DCA1E5F43B700A341B8 /* BSTabbarController.m */,
-				8F792DE51E5F53E300A341B8 /* BSNaviController.h */,
-				8F792DE61E5F53E300A341B8 /* BSNaviController.m */,
-				8F792DE21E5F530C00A341B8 /* BSTestController.h */,
-				8F792DE31E5F530C00A341B8 /* BSTestController.m */,
 				8F792D901E5F41F100A341B8 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -218,6 +210,7 @@
 		8F792DDC1E5F450D00A341B8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8F792DF91E5F8E0F00A341B8 /* Other */,
 				8F792DE11E5F454D00A341B8 /* Catagory */,
 				8F792DDD1E5F450D00A341B8 /* 关注-Trends */,
 				8F792DDE1E5F450D00A341B8 /* 我-Me */,
@@ -235,7 +228,7 @@
 				8F792DE81E5F66C800A341B8 /* BSTrendsController.xib */,
 				8F792DEA1E5F76D800A341B8 /* BSRecommendController.h */,
 				8F792DEB1E5F76D800A341B8 /* BSRecommendController.m */,
-				8F792DEC1E5F76D800A341B8 /* BSRecommendController.xib */,
+				8F792DFF1E5F917C00A341B8 /* BSRecommendController.xib */,
 				8F792DF31E5F805600A341B8 /* View */,
 				8F792DEF1E5F7DC300A341B8 /* Model */,
 			);
@@ -292,11 +285,27 @@
 		8F792DF31E5F805600A341B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8F792DF41E5F807700A341B8 /* BSCatagoryViewCell.h */,
-				8F792DF51E5F807700A341B8 /* BSCatagoryViewCell.m */,
-				8F792DF71E5F82AE00A341B8 /* BSCatagoryViewCell.xib */,
+				8F792DFA1E5F8E6100A341B8 /* BSCatagoryViewCell.h */,
+				8F792DFB1E5F8E6100A341B8 /* BSCatagoryViewCell.m */,
+				8F792DFC1E5F8E6100A341B8 /* BSCatagoryViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8F792DF91E5F8E0F00A341B8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8F792DD91E5F43F500A341B8 /* BSTabBar.h */,
+				8F792DDA1E5F43F500A341B8 /* BSTabBar.m */,
+				8F792DC91E5F43B700A341B8 /* BSTabbarController.h */,
+				8F792DCA1E5F43B700A341B8 /* BSTabbarController.m */,
+				8F792DE51E5F53E300A341B8 /* BSNaviController.h */,
+				8F792DE61E5F53E300A341B8 /* BSNaviController.m */,
+				8F792DE21E5F530C00A341B8 /* BSTestController.h */,
+				8F792DE31E5F530C00A341B8 /* BSTestController.m */,
+			);
+			name = Other;
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,8 +418,8 @@
 				8F792DE91E5F66C800A341B8 /* BSTrendsController.xib in Resources */,
 				8F792DA01E5F41F100A341B8 /* LaunchScreen.storyboard in Resources */,
 				8F792D9D1E5F41F100A341B8 /* Assets.xcassets in Resources */,
-				8F792DF81E5F82AE00A341B8 /* BSCatagoryViewCell.xib in Resources */,
-				8F792DEE1E5F76D800A341B8 /* BSRecommendController.xib in Resources */,
+				8F792E001E5F917C00A341B8 /* BSRecommendController.xib in Resources */,
+				8F792DFE1E5F8E6100A341B8 /* BSCatagoryViewCell.xib in Resources */,
 				8F792D9B1E5F41F100A341B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,7 +506,7 @@
 				8F792DE41E5F530C00A341B8 /* BSTestController.m in Sources */,
 				8F792D921E5F41F100A341B8 /* main.m in Sources */,
 				8F792DDB1E5F43F500A341B8 /* BSTabBar.m in Sources */,
-				8F792DF61E5F807700A341B8 /* BSCatagoryViewCell.m in Sources */,
+				8F792DFD1E5F8E6100A341B8 /* BSCatagoryViewCell.m in Sources */,
 				8F792DD11E5F43B700A341B8 /* BSEssenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

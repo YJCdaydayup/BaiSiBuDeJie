@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-百思不得姐.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2A6952210EF2CA479635F1E64CB15E6D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A77F041CDACC161B43C55940E7E4261D</key>
+		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E0536B446CBD0A3494EB3AFAB94B473D</key>
+		<key>BF246BA2E89C0273615475CDFCC57480</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C438E5DDD163307F4607B7C2FAC59B9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEE815BBDAB3929151E8F88118846662</key>
 		<dict>
 			<key>primary</key>
 			<true/>

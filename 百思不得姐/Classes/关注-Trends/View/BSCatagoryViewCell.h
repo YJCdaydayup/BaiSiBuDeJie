@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class BSRecomendCatagory;
+
 @interface BSCatagoryViewCell : UITableViewCell
+
+/** 模型属性 */
+@property (nonatomic,strong) BSRecomendCatagory * catagory;
 
 @end

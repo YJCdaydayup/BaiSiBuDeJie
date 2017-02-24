@@ -10,13 +10,19 @@
 #import <SVProgressHUD.h>
 #import "BSRecomendCatagory.h"
 #import <AFNetworking.h>
+#import "BSCatagoryViewCell.h"
+#import <MJExtension.h>
+
 
 @interface BSRecommendController ()<UITableViewDataSource,UITableViewDelegate>
 
 /** 左边的类别 */
+@property (weak, nonatomic) IBOutlet UITableView *catagoryTableView;
 @property (nonatomic,strong) NSArray * catagories;
 
 @end
+
+static NSString * const catagoryId = @"catagoryId";
 
 @implementation BSRecommendController
 
@@ -25,6 +31,11 @@
     
     self.title = @"推荐关注";
     self.view.backgroundColor = BSGlobalBg;
+    
+    //注册
+    [self.catagoryTableView registerNib:[UINib nibWithNibName:NSStringFromClass([BSCatagoryViewCell class]) bundle:nil] forCellReuseIdentifier:catagoryId];
+    self.catagoryTableView.tableFooterView = [UIView new];
+    self.catagoryTableView.backgroundColor = [UIColor clearColor];
     
     //显示指示器
     [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
@@ -37,13 +48,14 @@
         
         [SVProgressHUD dismiss];
         
-        NSDictionary * dict = responseObject;
+        self.catagories = [BSRecomendCatagory mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        [self.catagoryTableView reloadData];
+        
+        [self.catagoryTableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionNone];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         [SVProgressHUD showErrorWithStatus:@"请求数据错误!"];
     }];
-    
-    
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -52,7 +64,13 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    return [UITableViewCell new];
+    BSCatagoryViewCell * cell = [tableView dequeueReusableCellWithIdentifier:catagoryId];
+    if(cell==nil){
+        cell = [[BSCatagoryViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:catagoryId];
+    }
+    cell.catagory = self.catagories[indexPath.row];
+    
+    return cell;
 }
 
 @end
