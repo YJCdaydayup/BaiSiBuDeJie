@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSRecommendController">
             <connections>
                 <outlet property="catagoryTableView" destination="AnG-Ak-VyF" id="fbM-Uu-amM"/>
+                <outlet property="userTableView" destination="5E5-g1-gmP" id="yQQ-e1-A7a"/>
                 <outlet property="view" destination="iN0-l3-epB" id="64P-rd-FLF"/>
             </connections>
         </placeholder>
@@ -29,15 +30,28 @@
                         <outlet property="delegate" destination="-1" id="OnJ-Fa-M9l"/>
                     </connections>
                 </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5E5-g1-gmP">
+                    <rect key="frame" x="100" y="0.0" width="500" height="600"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vnX-Cs-3pq"/>
+                        <outlet property="delegate" destination="-1" id="OBV-NK-RRO"/>
+                    </connections>
+                </tableView>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="5E5-g1-gmP" firstAttribute="leading" secondItem="AnG-Ak-VyF" secondAttribute="trailing" id="AXY-Vg-v0i"/>
                 <constraint firstItem="AnG-Ak-VyF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EBJ-JP-A9C"/>
                 <constraint firstItem="AnG-Ak-VyF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="a7i-ZV-WtY"/>
+                <constraint firstItem="5E5-g1-gmP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="d48-I9-1Pe"/>
                 <constraint firstAttribute="bottom" secondItem="AnG-Ak-VyF" secondAttribute="bottom" id="iGQ-hR-bzb"/>
+                <constraint firstAttribute="trailing" secondItem="5E5-g1-gmP" secondAttribute="trailing" id="z6V-Qr-vZP"/>
+                <constraint firstAttribute="bottom" secondItem="5E5-g1-gmP" secondAttribute="bottom" id="z6m-HL-5yv"/>
             </constraints>
-            <point key="canvasLocation" x="224" y="104"/>
+            <point key="canvasLocation" x="353" y="97"/>
         </view>
     </objects>
 </document>

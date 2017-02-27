@@ -1,3 +1,5 @@
+
+
 //
 //  BSRecomendCatagory.m
 //  百思不得姐
@@ -9,5 +11,13 @@
 #import "BSRecomendCatagory.h"
 
 @implementation BSRecomendCatagory
+
+-(NSMutableArray *)users{
+    
+    if(_users==nil){
+        _users = [NSMutableArray array];
+    }
+    return _users;
+}
 
 @end

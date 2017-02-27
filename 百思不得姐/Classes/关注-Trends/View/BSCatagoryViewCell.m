@@ -21,6 +21,7 @@
 - (void)awakeFromNib {
     
     self.backgroundColor = BSGlobalBg;
+    //当cell的selection设置为None时，如果cell被选中，它里面的控件不会进入高亮状态
     //    self.selectedBackgroundView = [[UIView alloc]init];
 }
 
@@ -44,7 +45,6 @@
     [super setSelected:selected animated:animated];
     self.moveView.hidden = !selected;
     self.textLabel.textColor = selected?self.moveView.backgroundColor:BSRGBColor(78, 78, 78);
-    NSLog(@"%zi",selected);
 }
 
 @end

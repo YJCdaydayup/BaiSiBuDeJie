@@ -30,6 +30,9 @@
 		8F792DFD1E5F8E6100A341B8 /* BSCatagoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F792DFB1E5F8E6100A341B8 /* BSCatagoryViewCell.m */; };
 		8F792DFE1E5F8E6100A341B8 /* BSCatagoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F792DFC1E5F8E6100A341B8 /* BSCatagoryViewCell.xib */; };
 		8F792E001E5F917C00A341B8 /* BSRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F792DFF1E5F917C00A341B8 /* BSRecommendController.xib */; };
+		8F81222B1E609A2A005C9234 /* BSCatagotyUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8122291E609A2A005C9234 /* BSCatagotyUserCell.m */; };
+		8F81222C1E609A2A005C9234 /* BSCatagotyUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F81222A1E609A2A005C9234 /* BSCatagotyUserCell.xib */; };
+		8F81222F1E609D65005C9234 /* BSCatagoryUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F81222E1E609D65005C9234 /* BSCatagoryUser.m */; };
 		E1B201DB4DE6661DEE399351 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5B9CE8BFE6E7BFFA8101C2 /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +99,11 @@
 		8F792DFB1E5F8E6100A341B8 /* BSCatagoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCatagoryViewCell.m; sourceTree = "<group>"; };
 		8F792DFC1E5F8E6100A341B8 /* BSCatagoryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCatagoryViewCell.xib; sourceTree = "<group>"; };
 		8F792DFF1E5F917C00A341B8 /* BSRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSRecommendController.xib; sourceTree = "<group>"; };
+		8F8122281E609A2A005C9234 /* BSCatagotyUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCatagotyUserCell.h; sourceTree = "<group>"; };
+		8F8122291E609A2A005C9234 /* BSCatagotyUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCatagotyUserCell.m; sourceTree = "<group>"; };
+		8F81222A1E609A2A005C9234 /* BSCatagotyUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCatagotyUserCell.xib; sourceTree = "<group>"; };
+		8F81222D1E609D65005C9234 /* BSCatagoryUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCatagoryUser.h; sourceTree = "<group>"; };
+		8F81222E1E609D65005C9234 /* BSCatagoryUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCatagoryUser.m; sourceTree = "<group>"; };
 		9175CB6B242F3F9C5E42F4BC /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		FA5B9CE8BFE6E7BFFA8101C2 /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -278,6 +286,8 @@
 			children = (
 				8F792DF01E5F7DDE00A341B8 /* BSRecomendCatagory.h */,
 				8F792DF11E5F7DDE00A341B8 /* BSRecomendCatagory.m */,
+				8F81222D1E609D65005C9234 /* BSCatagoryUser.h */,
+				8F81222E1E609D65005C9234 /* BSCatagoryUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,6 +298,9 @@
 				8F792DFA1E5F8E6100A341B8 /* BSCatagoryViewCell.h */,
 				8F792DFB1E5F8E6100A341B8 /* BSCatagoryViewCell.m */,
 				8F792DFC1E5F8E6100A341B8 /* BSCatagoryViewCell.xib */,
+				8F8122281E609A2A005C9234 /* BSCatagotyUserCell.h */,
+				8F8122291E609A2A005C9234 /* BSCatagotyUserCell.m */,
+				8F81222A1E609A2A005C9234 /* BSCatagotyUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -418,6 +431,7 @@
 				8F792DE91E5F66C800A341B8 /* BSTrendsController.xib in Resources */,
 				8F792DA01E5F41F100A341B8 /* LaunchScreen.storyboard in Resources */,
 				8F792D9D1E5F41F100A341B8 /* Assets.xcassets in Resources */,
+				8F81222C1E609A2A005C9234 /* BSCatagotyUserCell.xib in Resources */,
 				8F792E001E5F917C00A341B8 /* BSRecommendController.xib in Resources */,
 				8F792DFE1E5F8E6100A341B8 /* BSCatagoryViewCell.xib in Resources */,
 				8F792D9B1E5F41F100A341B8 /* Main.storyboard in Resources */,
@@ -508,6 +522,8 @@
 				8F792DDB1E5F43F500A341B8 /* BSTabBar.m in Sources */,
 				8F792DFD1E5F8E6100A341B8 /* BSCatagoryViewCell.m in Sources */,
 				8F792DD11E5F43B700A341B8 /* BSEssenceController.m in Sources */,
+				8F81222F1E609D65005C9234 /* BSCatagoryUser.m in Sources */,
+				8F81222B1E609A2A005C9234 /* BSCatagotyUserCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
